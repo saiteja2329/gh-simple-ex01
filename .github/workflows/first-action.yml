@@ -19,3 +19,6 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
+      
+      - name: using env var again
+        run: echo "using env $app_env again"
