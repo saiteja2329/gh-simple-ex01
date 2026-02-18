@@ -1,6 +1,13 @@
 name: First GitHub Actions Workflow
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
+
+env:
+   app_env: dev
+  
 
 jobs:
   hello-world:
